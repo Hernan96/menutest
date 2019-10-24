@@ -1,0 +1,43 @@
+@charset "utf-8";
+#menutop ul {
+	
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menutop li {
+
+	float: left;
+	margin: 5px;
+	border-color: black;
+	border-width: 10px;
+	border-style: solid;
+	padding: 5px;
+	background-color: orange;
+}
+
+#menutop li:hover {
+	
+	background-color: green;
+	color: white;
+	
+}
+
+li ul {
+	
+	display: none;
+	
+	}
+	
+li:hover > ul {
+	
+	display: block;
+	
+	}
+	
+#submenu li ul {
+	
+	float: none;
+	
+	}
